@@ -1,0 +1,10 @@
+// CODE COVERAGE
+// npm test -- --coverage --watchAll=false 
+
+wrapper.find('[id="counter"]').simulate('click');
+// the id selector : id="counter" - NO SPACES BEFORE AND AFTER '='!!!
+
+To test a component connected to redux store, additionally export the component, eg: 'export class App extends Component'.
+The state will be received as props.
+
+remember to export component before importing it for testing!

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the MainPage without crashing 1`] = `ShallowWrapper {}`;
+
+exports[`Renders the MainPage without crashing with isPending=false 1`] = `ShallowWrapper {}`;
