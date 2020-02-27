@@ -18,4 +18,4 @@ workflows:
     build-and-test_workflow:
       jobs:
         - build-and-test_1
-        - build-and test_2
+        - build-and-test_2
