@@ -9,11 +9,11 @@ jobs:
       - checkout
       - run: echo "A first hello"
   build-and-test_2:
-  executor:
-    name: node/default
-  steps:
-    - checkout
-    - run: echo "A second hello"
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - run: echo "A second hello"
 workflows:
     build-and-test_workflow:
       jobs:
