@@ -15,7 +15,7 @@ jobs:
       - checkout
       - run: echo "A second hello"
 workflows:
-    build-and-test_workflow:
+    build-and-test_workflow_1:
       jobs:
         - build-and-test_1
         - build-and-test_2
