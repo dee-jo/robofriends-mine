@@ -4,7 +4,7 @@ orbs:
 jobs:
   build:
     docker:
-      name: node/default
+      image: circleci/node@1.1.6
     steps:
       - checkout
       - run: echo "npm installing"
@@ -12,7 +12,7 @@ jobs:
       - run: CI=true npm run build
   test:
     docker:
-      name: node/default
+      image: circleci/node@1.1.6
     steps:
       - checkout
       - run: echo "Testing stuff"
@@ -20,7 +20,7 @@ jobs:
       - run: npm test
   hithere:
     docker:
-      name: node/default
+      image: circleci/node@1.1.6
     steps:
       - checkout
       - run: echo "Hi there!"
