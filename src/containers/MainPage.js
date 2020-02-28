@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import CounterButton from '../components/CounterButton';
+import CounterButton2 from '../components/CounterButton2';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
